@@ -1,0 +1,15 @@
+section {
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #04c0b2;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    background-color: #04c0b2;
+    color: #fff;
+    transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out;
+}

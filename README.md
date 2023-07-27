@@ -27,5 +27,11 @@ https://wl54vj.csb.app/
 - CSS
 - JavaScript
 
+
+## Approach
+I started off by doing some research and having a basic understand of how I can creat my own Tic Tac Toe. I watched other's creat there own and seen the mistakes they made and was able to avoid them. I use google to enhance my CSS.
+
+
+
 ## Struggles
-I struggled with getting my code started, although after some research and using examples from other's. I had a basic understand of creating my own. Adding questions to the game at first was a mess for me; so I skipped it and went back to it at the end.
+I struggled with getting my code started, although after some research and using examples from other's. I had a basic understand of creating my own. Adding questions to the game at first was a mess for me; so I skipped it and went back to it at the end. Although, the hardest part was my Javascript because a simply erro would break my whole code. Took me sometime and more research to be able to keep track of everything and truly understand my own code and the funcations I had.

@@ -43,3 +43,45 @@ function handleResultValidation() {
         break;
     }
     }
+
+
+if (roundWon) {
+    statusDisplay.innerHTML = winningMessage();
+    gameActive = false;
+    return;
+}
+
+const roundDraw = !gameState.includes("");
+if (roundDraw) {
+    statusDisplay.innerHTML = drawMessage();
+    gameActive = false;
+    return;
+}
+
+handlePlayerChange();
+}
+
+function handleCellClick(clickedCellEvent) {
+const clickedCell = clickedCellEvent.target;
+const clickedCellIndex = parseInt(clickedCell.getAttribute("data-box-index"));
+
+if (gameState[clickedCellIndex] !== "" || !gameActive) return;
+
+handleCellPlayed(clickedCell, clickedCellIndex);
+handleResultValidation();
+}
+
+function handleRestartGame() {
+gameActive = true;
+currentPlayer = "X";
+gameState = ["", "", "", "", "", "", "", "", ""];
+statusDisplay.innerHTML = currentPlayerTurn();
+document.querySelectorAll(".box").forEach((box) => (box.innerHTML = ""));
+}
+
+document
+.querySelectorAll(".box")
+.forEach((cell) => cell.addEventListener("click", handleCellClick));
+document
+.querySelector(".game-restart")
+.addEventListener("click", handleRestartGame);

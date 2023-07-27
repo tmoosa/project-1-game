@@ -26,3 +26,8 @@ https://wl54vj.csb.app/
 - HTML
 - CSS
 - JavaScript
+
+## Struggles
+I struggled with getting my code started, although after some research and using examples from other's. I had a basic understand of creating my own. 
+
+Adding questions to the game at first was a mess for me; so I skipped it and went back to it at the end.

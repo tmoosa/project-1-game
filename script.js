@@ -1,13 +1,16 @@
-// Element in the class
 const statusDisplay = document.querySelector(".game-status");
+
 // Game layout
 let gameActive = true;
 let currentPlayer = "X";
 let gameState = ["", "", "", "", "", "", "", "", ""];
+
 //Wining message
 const winningMessage = () => `Player ${currentPlayer} has won!`;
+
 //draw message
 const drawMessage = () => `Game ended in a draw!`;
+
 //turn 
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 
